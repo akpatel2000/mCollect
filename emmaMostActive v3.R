@@ -7,7 +7,7 @@ library(stringr)
 # source("emmaTradeDetails.R")
 Sys.setenv(TZ='EST')
 
-setwd("~/Applications/EMMA")
+setwd("~/Applications/mCollect")
 system("docker run -d -p 4445:4444 selenium/standalone-chrome")
 Sys.sleep(3)
 
